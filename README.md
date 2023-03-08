@@ -10,6 +10,7 @@ Enter the hourly rate, non-overtime hours worked, overtime hours worked, incenti
 The program will calculate the regular pay, overtime pay, incentive pay, and total pay based on the input values.
 The program will display the results in the console.
 
+
 Example Usage
 Enter hourly rate: 15.31
 Enter number of non-overtime hours worked: 80
@@ -20,6 +21,7 @@ Regular pay: $1224.80
 Overtime pay: $917.25
 Incentive pay: $338.65
 Total pay: $2480.70
+
 
 In this example, the user entered an hourly rate of $15.31, worked 80 non-overtime hours and 40 overtime hours, had 50% of their hours eligible for incentive pay, and entered an incentive pay value of $4 per hour. The program calculated a regular pay of $1224.80, an overtime pay of $917.25, an incentive pay of $338.65, and a total pay of $2480.70.
 
