@@ -1,29 +1,37 @@
 # Pay Calculator
-This program is a tool to calculate the total pay for a given number of hours worked based on the hourly rate, non-overtime hours worked, overtime hours worked, and percentage of hours eligible for incentive pay. The program also allows the user to adjust the hourly rate based on incentive pay by adding a user-entered value for incentive pay.
+This is a simple pay calculator program written in Python. It allows the user to enter the hourly rate, non-overtime hours worked, overtime hours worked, percentage of eligible hours for incentive pay, and incentive pay value. The program then calculates the regular pay, overtime pay, incentive pay, and total pay based on those inputs and displays the results.
 
-Getting Started
-To use the program, follow these steps:
+Usage
+To use the program, simply run the pay_calculator.py file and follow the instructions. The program will prompt you to enter the required inputs and will then display the calculated pay values.
 
-Open the Python script pay_calculator.py.
+Inputs
+Hourly rate (float): the hourly rate of pay
+Non-overtime hours worked (float): the number of non-overtime hours worked
+Overtime hours worked (float): the number of overtime hours worked
+Percentage of eligible hours for incentive pay (float): the percentage of hours worked that are eligible for incentive pay
+Incentive pay value (float): the dollar value of incentive pay per hour worked
+Outputs
+Regular pay (float): the amount of regular pay earned
+Overtime pay (float): the amount of overtime pay earned
+Incentive pay (float): the amount of incentive pay earned
+Total pay (float): the total amount of pay earned (regular, overtime, and incentive combined)
 
-Enter the hourly rate, non-overtime hours worked, overtime hours worked, incentive percentage, and incentive pay value when prompted.
-The program will calculate the regular pay, overtime pay, incentive pay, and total pay based on the input values.
-The program will display the results in the console.
+Example
 
-
-Example Usage
 Enter hourly rate: 15.31
+
 Enter number of non-overtime hours worked: 80
+
 Enter number of overtime hours worked: 40
+
 Enter percentage of eligible hours for incentive pay: 50
+
 Enter incentive pay value: 4.00
+
 Regular pay: $1224.80
-Overtime pay: $917.25
-Incentive pay: $338.65
-Total pay: $2480.70
-
-
-In this example, the user entered an hourly rate of $15.31, worked 80 non-overtime hours and 40 overtime hours, had 50% of their hours eligible for incentive pay, and entered an incentive pay value of $4 per hour. The program calculated a regular pay of $1224.80, an overtime pay of $917.25, an incentive pay of $338.65, and a total pay of $2480.70.
+Overtime pay: $916.20
+Incentive pay: $340.00
+Total pay: $2481.00
 
 Authors
 This program was written by Eric McCullar and ChatGPT.
